@@ -36,3 +36,38 @@
     transform: rotate(360deg);
   }
 }
+
+
+.background{
+  background-image: radial-gradient(#ffffff 2.5px , transparent 2.5px), radial-gradient(#ffffff 2.5px, transparent 2.5px);
+  background-size: 36px 36px;
+  background-position: 0 0, 18px 18px;
+  background-color: #b1d2ff;
+  /* background-image: radial-gradient(#ebebf4 4px, transparent 4px);
+  background-size: 36px 36px;
+  background-color: #a5e4e3;  */
+  height: 100%; 
+  padding-top: 1px;
+  /* align-items: center; */
+}
+
+.mainHeader{
+  background-color: white;
+  border-radius: 2rem;
+
+  /* position: relative; */
+   text-align: center;
+  /* margin-top: 35px; */
+  
+  margin-right: auto;
+  margin-left: auto;
+  padding: 5px 0px;
+  width: 70%;
+}
+
+/* .mainContainer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+} */
